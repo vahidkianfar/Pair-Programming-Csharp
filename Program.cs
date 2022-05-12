@@ -5,7 +5,6 @@
         private void AssignPlayersToTeams(string[] players)
         {
             //This function is not followed by SOLID principles.
-            
             string[] pairing = new string[players.Length];
             Random random = new Random();
             players = players.OrderBy(shuffle => random.Next()).ToArray();
@@ -18,14 +17,14 @@
         }
         static void Main()
         {
-            string[] players =
+            string[] members =
             {
                 "Adrian", "Aja", "Apshan", "Carl", "Eman", "Franco", "Hayley", "Ia", "Namita", "Nolan", "Sam",
                 "Shannon", "Sherry", "Vahid", "Vijay", "Vinu"
             };
             
             Players teams = new();
-            teams.AssignPlayersToTeams(players);
+            teams.AssignPlayersToTeams(members);
         }
     }
 }
