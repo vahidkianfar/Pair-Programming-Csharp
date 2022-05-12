@@ -20,7 +20,6 @@ namespace Pair_Programming
             {
                 pairing[i]=players[random.Next(i,players.Length)];
                 players = players.Where(x => x != pairing[i]).ToArray();
-                //Console.WriteLine(pairing[i]);
                 Console.WriteLine("Team Number {0} : {1} and {2}",i+1, pairing[i], players[i]);
             }
         }
