@@ -8,11 +8,11 @@
             
             string[] pairing = new string[players.Length];
             Random random = new Random();
-            players = players.OrderBy(x => random.Next()).ToArray();
-            for (int i = 0; i < players.Length-1; i++)
+            players = players.OrderBy(shuffle => random.Next()).ToArray();
+            for (int i = 0; i < players.Length; i++)
             {
                 pairing[i]=players[random.Next(i,players.Length)];
-                players = players.Where(x => x != pairing[i]).ToArray();
+                players = players.Where(alreadyAssigned => alreadyAssigned != pairing[i]).ToArray();
                 Console.WriteLine("Team Number {0} : {1} and {2}",i+1, pairing[i], players[i]);
             }
         }
