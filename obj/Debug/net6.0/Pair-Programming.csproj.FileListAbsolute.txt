@@ -1,0 +1,15 @@
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\bin\Debug\net6.0\Pair-Programming.exe
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\bin\Debug\net6.0\Pair-Programming.deps.json
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\bin\Debug\net6.0\Pair-Programming.runtimeconfig.json
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\bin\Debug\net6.0\Pair-Programming.dll
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\bin\Debug\net6.0\Pair-Programming.pdb
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\obj\Debug\net6.0\Pair-Programming.csproj.AssemblyReference.cache
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\obj\Debug\net6.0\Pair-Programming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\obj\Debug\net6.0\Pair-Programming.AssemblyInfoInputs.cache
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\obj\Debug\net6.0\Pair-Programming.AssemblyInfo.cs
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\obj\Debug\net6.0\Pair-Programming.csproj.CoreCompileInputs.cache
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\obj\Debug\net6.0\Pair-Programming.dll
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\obj\Debug\net6.0\refint\Pair-Programming.dll
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\obj\Debug\net6.0\Pair-Programming.pdb
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\obj\Debug\net6.0\Pair-Programming.genruntimeconfig.cache
+C:\Users\Vahid\RiderProjects\Pair-Programming\Pair-Programming\obj\Debug\net6.0\ref\Pair-Programming.dll
