@@ -1,4 +1,7 @@
-﻿namespace Pair_Programming
+﻿using System;
+using System.Linq;
+
+namespace Pair_Programming
 {
     class Players
     {
@@ -21,7 +24,6 @@
                 Console.WriteLine("Team Number {0} : {1} and {2}",counter+1, pairing[counter], players[counter]);
             }
         }
-        
         private static void Main()
         {
             string[] members =
