@@ -2,29 +2,35 @@
 {
     class Players
     {
-        private void AssignPlayersToTeams(string[] players)
+        private static void AssignPlayersToTeams(string[] players)
         {
-            //This function is not followed by SOLID principles.
-            string[] pairing = new string[players.Length];
-            Random random = new Random();
-            players = players.OrderBy(shuffle => random.Next()).ToArray();
-            for (int i = 0; i < players.Length; i++)
+            var pairing = new string[players.Length];
+            Random random = new();
+            players=players.OrderBy(shuffle => random.Next()).ToArray();
+            for (var counter = 0; counter < players.Length; counter++)
             {
-                pairing[i]=players[random.Next(i,players.Length)];
-                players = players.Where(alreadyAssigned => alreadyAssigned != pairing[i]).ToArray();
-                Console.WriteLine("Team Number {0} : {1} and {2}",i+1, pairing[i], players[i]);
+                pairing[counter]=players[random.Next(counter,players.Length)];
+                players = players.Where(alreadyAssigned => alreadyAssigned != pairing[counter]).ToArray();
+                
+                //if our array.length is an Odd number
+                if (counter == players.Length)
+                {
+                    Console.WriteLine("Team Number {0} : {1}" ,counter+1, pairing[counter]);
+                    break;
+                }
+                Console.WriteLine("Team Number {0} : {1} and {2}",counter+1, pairing[counter], players[counter]);
             }
         }
-        static void Main()
+        
+        private static void Main()
         {
             string[] members =
             {
                 "Adrian", "Aja", "Apshan", "Carl", "Eman", "Franco", "Hayley", "Ia", "Namita", "Nolan", "Sam",
-                "Shannon", "Sherry", "Vahid", "Vijay", "Vinu"
+                "Shannon", "Sherry", "Vahid", "Vijay" , "Vinu"
             };
             
-            Players teams = new();
-            teams.AssignPlayersToTeams(members);
+            AssignPlayersToTeams(members);
         }
     }
 }
