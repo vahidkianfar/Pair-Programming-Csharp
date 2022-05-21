@@ -29,7 +29,6 @@
                 "Adrian", "Aja", "Apshan", "Carl", "Eman", "Franco", "Hayley", "Ia", "Namita", "Nolan", "Sam",
                 "Shannon", "Sherry", "Vahid", "Vijay" , "Vinu"
             };
-            
             AssignPlayersToTeams(members);
         }
     }
